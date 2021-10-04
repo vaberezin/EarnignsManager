@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/wellyes/Documents/API/EarningsManager/EarningsManagerTests/EarningsManagerTests.csproj": {}
+  },
+  "projects": {
+    "/home/wellyes/Documents/API/EarningsManager/EarningsManagerAPI/EarningsManagerAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/wellyes/Documents/API/EarningsManager/EarningsManagerAPI/EarningsManagerAPI.csproj",
+        "projectName": "EarningsManagerAPI",
+        "projectPath": "/home/wellyes/Documents/API/EarningsManager/EarningsManagerAPI/EarningsManagerAPI.csproj",
+        "packagesPath": "/home/wellyes/.nuget/packages/",
+        "outputPath": "/home/wellyes/Documents/API/EarningsManager/EarningsManagerAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/wellyes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/140/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/wellyes/Documents/API/EarningsManager/EarningsManagerTests/EarningsManagerTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/wellyes/Documents/API/EarningsManager/EarningsManagerTests/EarningsManagerTests.csproj",
+        "projectName": "EarningsManagerTests",
+        "projectPath": "/home/wellyes/Documents/API/EarningsManager/EarningsManagerTests/EarningsManagerTests.csproj",
+        "packagesPath": "/home/wellyes/.nuget/packages/",
+        "outputPath": "/home/wellyes/Documents/API/EarningsManager/EarningsManagerTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/wellyes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/wellyes/Documents/API/EarningsManager/EarningsManagerAPI/EarningsManagerAPI.csproj": {
+                "projectPath": "/home/wellyes/Documents/API/EarningsManager/EarningsManagerAPI/EarningsManagerAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/140/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

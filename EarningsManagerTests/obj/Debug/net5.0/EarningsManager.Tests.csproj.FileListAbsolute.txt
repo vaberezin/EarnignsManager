@@ -1,0 +1,5 @@
+/home/wellyes/Documents/API/EarningsManager/EarningsManager.Tests/obj/Debug/net5.0/EarningsManager.Tests.csproj.AssemblyReference.cache
+/home/wellyes/Documents/API/EarningsManager/EarningsManager.Tests/obj/Debug/net5.0/EarningsManager.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/home/wellyes/Documents/API/EarningsManager/EarningsManager.Tests/obj/Debug/net5.0/EarningsManager.Tests.AssemblyInfoInputs.cache
+/home/wellyes/Documents/API/EarningsManager/EarningsManager.Tests/obj/Debug/net5.0/EarningsManager.Tests.AssemblyInfo.cs
+/home/wellyes/Documents/API/EarningsManager/EarningsManager.Tests/obj/Debug/net5.0/EarningsManager.Tests.csproj.CoreCompileInputs.cache
