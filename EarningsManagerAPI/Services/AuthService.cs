@@ -28,6 +28,22 @@ namespace EarningsManagerAPI.Services
                 return false;
             }
             return true;
+
+            var isEmployeeExist = Employees.Contains(lastName);
+
+            if(isEmployeeExist)
+                {
+                    UserSession.Sessions.Add(lastName);
+                }
         }
+
+        
+
+        
+    }
+
+    public static class UserSession
+    {
+        public static HashSet<string> Sessions {get; set; } = new HashSet<string>();
     }
 }

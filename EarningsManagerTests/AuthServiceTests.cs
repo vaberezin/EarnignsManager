@@ -29,15 +29,33 @@ namespace EarningsManagerTests
             Assert.IsTrue(result);
         }
 
-        [TestCase("Иванов")]
+        [Test]
+        public void Login_ShouldResultTrue()
+        {
+            // arrange
+            var lastName = "Иванов";
+
+            var service = new AuthService();
+
+            // act
+
+            var result = service.Login(lastName);
+            result = service.Login(lastName);
+
+            // assert
+
+            Assert.IsTrue(result);
+        }
+
+
+        [TestCase("")]
         [TestCase(null)]
-        [TestCase("TestUser")]
         
         public void Login_ShouldResultFalse(string lastName)
         {
             // arrange
 
-            var lastName = "";
+            //var lastName = "";
 
             var service = new AuthService();
 
